@@ -19,7 +19,7 @@ This project contains:
 * Using [Git](https://git-scm.com/), clone the project.
 
     ```
-    git clone 
+    git clone https://github.com/Msbian/GCP-Final-task.git
     ```
 ###  Setup Infra 
 * First setup your GCP account, create new project and change the value of "project_name" variable in Infra-GCP/dev.tfvars with your PROJECT-ID,if you host you con unhashed Infra-GCP/create-project.tf and create billing account and project by terraform
