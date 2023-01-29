@@ -95,7 +95,7 @@ This project contains:
     
         ```
         sudo kubectl apply -f kubernetes/
-        sudo get all
+        sudo kubectl get all
         ```
 
         that will deploy:
