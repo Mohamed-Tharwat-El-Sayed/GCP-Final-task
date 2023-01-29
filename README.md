@@ -51,7 +51,7 @@ This project contains:
 * Python Image
   * Build the Docker Image by run
       ```bash
-      docker build -t eu.gcr.io/<PROJECT-ID>/python:1.0 .
+      docker build -t eu.gcr.io/<PROJECT-ID>/python:latest .
       ```
   * Setup credentials for docker to Push to GCR using "docker-gcr-sa" Service Account
       ```
@@ -60,7 +60,7 @@ This project contains:
       ```
   * Push the Created Image to GCR
       ```
-      docker push eu.gcr.io/<PROJECT-ID>/python:1.0 
+      docker push eu.gcr.io/<PROJECT-ID>/python:latest 
       ```
 * Redis Image
   * Pull the Docker Image from Dockerhub
@@ -69,11 +69,11 @@ This project contains:
      ```
   * Build the Docker Image by run
       ```bash
-      docker build -t eu.gcr.io/<PROJECT-ID>/redis:1.0 . 
+      docker build -t eu.gcr.io/<PROJECT-ID>/redis:latest . 
       ```
   * Push the Created Image to GCR
       ```
-      docker push eu.gcr.io/<PROJECT-ID>/redis:1.0
+      docker push eu.gcr.io/<PROJECT-ID>/redis:latest
       ```
 
 ### Deploy
